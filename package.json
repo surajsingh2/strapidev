@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "heroku-postbuild": "strapi develop"
+    "heroku-postbuild": "npm run develop"
   },
   "devDependencies": {},
   "dependencies": {
